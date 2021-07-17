@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML on Sandeep&#39;s World</title>
+    <link>/en/tags/ml/</link>
+    <description>Recent content in ML on Sandeep&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2021-{year} Sandeep Kumar. All Rights Reserved.</copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rienforcement Learning to develop AI agents</title>
+      <link>/en/posts/rienforcement-learning/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/rienforcement-learning/</guid>
+      <description>Rienforcement Learning to develop AI agents Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward.Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
+Reinforcement learning differs from supervised learning in not needing labelled input/output pairs be presented, and in not needing sub-optimal actions to be explicitly corrected.</description>
+    </item>
+    
+    <item>
+      <title>Rienforcement Learning to develop AI agents</title>
+      <link>/en/posts/shortcodes/rienforcement-learning/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/shortcodes/rienforcement-learning/</guid>
+      <description>Rienforcement Learning to develop AI agents Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward.Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
+Reinforcement learning differs from supervised learning in not needing labelled input/output pairs be presented, and in not needing sub-optimal actions to be explicitly corrected.</description>
+    </item>
+    
+  </channel>
+</rss>

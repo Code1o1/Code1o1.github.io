@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paradigms on Sandeep&#39;s World</title>
+    <link>/en/tags/paradigms/</link>
+    <description>Recent content in paradigms on Sandeep&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2021-{year} Sandeep Kumar. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/paradigms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>getting insights into various programming languages</title>
+      <link>/en/posts/programming-languages/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/programming-languages/</guid>
+      <description>I&amp;rsquo;m writting this blog while doing my summer project on getting insights into various programming languages and understanding the different paradigms of programming.
+ General Concepts- Here is a quick overview on Fundamentals of Programming Languages : Similar to human interface languages, which have their own set of rules that have to be followed in order to write correctly in that language, programming languages ​​also follow certain rules.Classification of programming languages on the basis of -</description>
+    </item>
+    
+    <item>
+      <title>getting insights into various programming languages</title>
+      <link>/en/posts/shortcodes/programming-languages/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/shortcodes/programming-languages/</guid>
+      <description>I&amp;rsquo;m writting this blog while doing my summer project on getting insights into various programming languages and understanding the different paradigms of programming.
+ General Concepts- Here is a quick overview on Fundamentals of Programming Languages : Similar to human interface languages, which have their own set of rules that have to be followed in order to write correctly in that language, programming languages ​​also follow certain rules.Classification of programming languages on the basis of -</description>
+    </item>
+    
+  </channel>
+</rss>
