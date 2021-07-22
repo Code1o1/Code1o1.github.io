@@ -200,7 +200,26 @@
 </div><section class="related-posts">
     <h3>相关文章</h3>
     <ul class="related-posts"><li><a href="/zh-cn/posts/shortcodes/alert/">Alert Shortcode</a></li><li><a href="/zh-cn/posts/shortcodes/bilibili/">Bilibili Shortcode</a></li><li><a href="/zh-cn/posts/shortcodes/codepen/">CodePen Shortcode</a></li><li><a href="/zh-cn/posts/shortcodes/jsfiddle/">JSFiddle Shortcode</a></li><li><a href="/zh-cn/posts/shortcodes/youku/">优酷 Shortcode</a></li></ul>
-  </section></article><div class="post-comments surface row"></div></div>
+  </section></article><div class="post-comments surface row"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sandeepb20" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div>
 </div><aside class="col-lg-4 sidebar d-flex">
   <div class="container"><section class="profile surface row">
   <div class="col-xl-6 d-flex align-items-center justify-content-center">
@@ -273,7 +292,7 @@
       </a>
     </li></nav>
 <div class="copyright mb-2">
-  Copyright © 2021-2021 Sandeep Kumar. All Rights Reserved.
+  Copyright © 2021-2021 Sandeep Kumar.
 </div>
 </footer>
 <a id="btnScrollToTop" class="btn-scroll-to-top">

@@ -6,8 +6,35 @@
     <description>Recent content in Tags on Sandeep&#39;s World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2021-{year} Sandeep Kumar. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2021-{year} Sandeep Kumar.</copyright>
+    <lastBuildDate>Thu, 22 Jul 2021 08:21:24 +0530</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>debian</title>
+      <link>/en/tags/debian/</link>
+      <pubDate>Thu, 22 Jul 2021 08:21:24 +0530</pubDate>
+      
+      <guid>/en/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>os</title>
+      <link>/en/tags/os/</link>
+      <pubDate>Thu, 22 Jul 2021 08:21:24 +0530</pubDate>
+      
+      <guid>/en/tags/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>/en/tags/ubuntu/</link>
+      <pubDate>Thu, 22 Jul 2021 08:21:24 +0530</pubDate>
+      
+      <guid>/en/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>aca</title>
       <link>/en/tags/aca/</link>

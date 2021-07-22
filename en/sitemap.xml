@@ -3,6 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/en/tags/debian/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/series/linux/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/operating-systems/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/os/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/series/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/ubuntu/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/tags/aca/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -38,26 +143,6 @@
   </url>
   
   <url>
-    <loc>/en/posts/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/series/projects/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url>
@@ -83,46 +168,6 @@
   </url>
   
   <url>
-    <loc>/en/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/series/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/series/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/categories/shortcode/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -139,26 +184,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/categories/shortcode/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
                 />
   </url>
   

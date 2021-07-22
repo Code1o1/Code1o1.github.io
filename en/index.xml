@@ -6,8 +6,17 @@
     <description>Recent content on Sandeep&#39;s World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2021-{year} Sandeep Kumar. All Rights Reserved.</copyright>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2021-{year} Sandeep Kumar.</copyright>
+    <lastBuildDate>Thu, 22 Jul 2021 08:21:24 +0530</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Operating Systems</title>
+      <link>/en/posts/operating-systems/</link>
+      <pubDate>Thu, 22 Jul 2021 08:21:24 +0530</pubDate>
+      
+      <guid>/en/posts/operating-systems/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Rienforcement Learning to develop AI agents</title>
       <link>/en/posts/rienforcement-learning/</link>
@@ -24,7 +33,7 @@ Reinforcement learning differs from supervised learning in not needing labelled 
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/posts/blog102/</guid>
-      <description>Hey ,Glad you are here :Slightly Smiling Face: I’m Sandeep Kumar, a undergrad student in Computer Science and Engineering at IIT Kanpur,(class of 2024). Since the endsem exams of my second semester ended today (in my bedroom on a random Sunday at 11:10 AM :Slightly Frowning Face:) I thought of posting programming stuffs and well general life experience too .So I chose to make my own blog manager.Based on my experience and working with peers I loved to give you an overview.</description>
+      <description>Hey ,Glad you are here :Slightly Smiling Face: I’m Sandeep Kumar, a undergrad student in Computer Science and Engineering at IIT Kanpur,(class of 2024). Since the endsem exams of my second semester ended today {in my bedroom on a random Sunday at 11:10 AM :Slightly Frowning Face: } I thought of posting programming stuffs and general life experience as well. So I chose to make my own blog manager.Based on my experience and working with peers I loved to give you an overview.</description>
     </item>
     
     <item>
