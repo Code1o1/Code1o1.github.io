@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Sandeep&#39;s World</title>
+    <link>/en/categories/programming/</link>
+    <description>Recent content in Programming on Sandeep&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2021-{year} Sandeep Kumar.</copyright>
+    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/en/posts/markdown-syntax/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.&lt;/p&gt;
+&lt;p&gt;You can use Markdown most places around GitHub:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Gists
+Comments in Issues and Pull Requests
+Files with the .md or .markdown extension
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

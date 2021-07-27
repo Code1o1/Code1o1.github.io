@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2021-{year} Sandeep Kumar.</copyright>
-    <lastBuildDate>Thu, 22 Jul 2021 08:21:24 +0530</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 22:13:43 +0530</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GO</title>
+      <link>/en/tags/go/</link>
+      <pubDate>Mon, 26 Jul 2021 22:13:43 +0530</pubDate>
+      
+      <guid>/en/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>interfaces</title>
+      <link>/en/tags/interfaces/</link>
+      <pubDate>Mon, 26 Jul 2021 22:13:43 +0530</pubDate>
+      
+      <guid>/en/tags/interfaces/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>debian</title>
       <link>/en/tags/debian/</link>
@@ -45,11 +63,29 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
-      <link>/en/tags/machine-learning/</link>
+      <title>CSS</title>
+      <link>/en/tags/css/</link>
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>/en/tags/machine-learning/</guid>
+      <guid>/en/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>/en/tags/html/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/en/tags/markdown/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/tags/markdown/</guid>
       <description></description>
     </item>
     
@@ -59,24 +95,6 @@
       <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>/en/tags/python/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rienforcement Learning</title>
-      <link>/en/tags/rienforcement-learning/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/rienforcement-learning/</guid>
       <description></description>
     </item>
     
@@ -135,72 +153,9 @@
     </item>
     
     <item>
-      <title>project</title>
-      <link>/en/tags/project/</link>
-      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CSS</title>
-      <link>/en/tags/css/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>/en/tags/html/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>/en/tags/markdown/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Youku</title>
-      <link>/en/tags/youku/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/youku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Text</title>
-      <link>/en/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/text/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Math</title>
-      <link>/en/tags/math/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Emoji</title>
       <link>/en/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/tags/emoji/</guid>
       <description></description>

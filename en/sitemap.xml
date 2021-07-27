@@ -3,28 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/tags/debian/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <loc>/en/tags/go/</loc>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/en/series/linux/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <loc>/en/posts/interfaces/</loc>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/en/posts/operating-systems/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/os/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <loc>/en/tags/interfaces/</loc>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
   </url>
   
   <url>
     <loc>/en/posts/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -43,8 +38,13 @@
   </url>
   
   <url>
+    <loc>/en/series/projects/</loc>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/en/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -64,7 +64,7 @@
   
   <url>
     <loc>/en/series/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -84,7 +84,7 @@
   
   <url>
     <loc>/en/tags/</loc>
-    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+    <lastmod>2021-07-26T22:13:43+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -100,6 +100,26 @@
                 hreflang="en"
                 href="/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>/en/tags/debian/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/series/linux/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/operating-systems/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/os/</loc>
+    <lastmod>2021-07-22T08:21:24+05:30</lastmod>
   </url>
   
   <url>
@@ -133,7 +153,22 @@
   </url>
   
   <url>
-    <loc>/en/tags/machine-learning/</loc>
+    <loc>/en/tags/css/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/html/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/markdown/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/markdown-syntax/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,17 +178,7 @@
   </url>
   
   <url>
-    <loc>/en/series/projects/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/python/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/rienforcement-learning/</loc>
+    <loc>/en/categories/programming/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -228,128 +253,18 @@
   </url>
   
   <url>
-    <loc>/en/tags/project/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <loc>/en/tags/emoji/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/emoji-support/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/en/about/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/css/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/html/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/markdown/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/posts/markdown-syntax/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/series/user-manual/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/posts/shortcodes/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/posts/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/posts/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/shortcodes/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tags/youku/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/tags/youku/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/tags/youku/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/youku/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/posts/shortcodes/youku/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/posts/shortcodes/youku/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/posts/shortcodes/youku/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/posts/shortcodes/youku/"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/posts/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/math/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/posts/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/posts/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -387,6 +302,25 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/search/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/posts/shortcodes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/posts/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/posts/shortcodes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/posts/shortcodes/"
                 />
   </url>
   
