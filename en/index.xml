@@ -6,7 +6,7 @@
     <description>Recent content on Sandeep&#39;s World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2021-{year} Sandeep Kumar.</copyright>
+    <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
     <lastBuildDate>Mon, 26 Jul 2021 22:13:43 +0530</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interfaces</title>
@@ -23,7 +23,8 @@
       <pubDate>Thu, 22 Jul 2021 08:21:24 +0530</pubDate>
       
       <guid>/en/posts/operating-systems/</guid>
-      <description>Introduction to Linux Operating Systems. It is advisable to write everything you do. May be you learnt something new in Version control systems, or to fix something in your operating system. As similar problems becomes convenient if you have solutions to previously faced issues with you. Ofc this also preserve your interest.This blog mainly contains my Learnings and experience about operating systems.Story of having multiple OSes on my machine. Also why I prefer linux kernel over WindowsAbout six months ago I thought of switching from windows to linux.</description>
+      <description>Introduction to Linux Operating Systems. It&amp;rsquo;s worth writing everything you do. Maybe you learned something new in the version control system, or fixed something in your operating system. As similar problems become convenient if you have solutions to problems already encountered. Ofc this also preserve your interest.
+This blog mainly consists of my learnings and experiences about operating systems. The story of having multiple OS&amp;rsquo;s on my machine. Also why I prefer linux kernel over Windows</description>
     </item>
     
     <item>
@@ -66,8 +67,8 @@ Reinforcement learning differs from supervised learning in not needing labelled 
       <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/posts/programming-languages/</guid>
-      <description>I&amp;rsquo;m writting this blog while doing my summer project on getting insights into various programming languages and understanding the different paradigms of programming.
- General Concepts- Here is a quick overview on Fundamentals of Programming Languages : Similar to human interface languages, which have their own set of rules that have to be followed in order to write correctly in that language, programming languages ​​also follow certain rules.Classification of programming languages on the basis of -</description>
+      <description>I am writing this blog during my summer project on gaining insight into different programming languages ​​and understanding different paradigms of programming.
+    General Concepts- Here is a quick overview on Fundamentals of Programming Languages : Similar to human interface languages, which have their own set of rules that have to be followed in order to write correctly in that language, programming languages ​​also follow certain rules.Classification of programming languages on the basis of -</description>
     </item>
     
     <item>
@@ -86,7 +87,7 @@ Reinforcement learning differs from supervised learning in not needing labelled 
       
       <guid>/en/about/</guid>
       <description>Hi! I am a Sophomore at IIT Kanpur.Currently Pursuing my majors in the Department of Computer Science and Engineering.
-There&amp;rsquo;s much more for me rather than just studying. I’m interested in jumping in and trying out some coding. I love to play outdoor games, sometimes pc gaming, some writing to share my stories, and of course knocking around with my friends.
+There&amp;rsquo;s much more for me rather than just studying. I&amp;rsquo;m interested to jump in and try some coding. I love playing outdoor games, PC gaming at times, writing something to share my stories with, and of course hanging out with my friends.
 Bieng the lone wolf is ok, it tells me you&amp;rsquo;re independent ,brave, strong&amp;hellip;.</description>
     </item>
     

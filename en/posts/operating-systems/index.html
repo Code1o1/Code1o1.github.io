@@ -13,7 +13,7 @@
 <meta itemprop="description" content="All about operating systems">
 <meta itemprop="datePublished" content="2021-07-22T08:21:24+05:30" />
 <meta itemprop="dateModified" content="2021-07-22T08:21:24+05:30" />
-<meta itemprop="wordCount" content="383">
+<meta itemprop="wordCount" content="717">
 <meta itemprop="image" content="/images/os2.jpeg">
 
 
@@ -179,7 +179,7 @@
     <i class="fas fa-fw fa-calendar-alt"></i>Jul 22, 2021
   </span>
   <span class="post-reading-time me-2">
-    <i class="fas fa-fw fa-coffee"></i>2 min read
+    <i class="fas fa-fw fa-coffee"></i>4 min read
   </span>
 <a href="/en/series/linux/" class="post-taxonomy">#linux</a><a href="/en/tags/os/" class="post-taxonomy">#os</a><a href="/en/tags/ubuntu/" class="post-taxonomy">#ubuntu</a><a href="/en/tags/debian/" class="post-taxonomy">#debian</a></div>
 <div class="post-share mb-3"><div class="addthis_inline_share_toolbox"></div></div><a id="btnTOC" class="fas fa-fw fa-2x fa-list-alt position-fixed" data-bs-toggle="offcanvas" href="#offcanvasTOC" aria-controls="offcanvasTOC" role="button">
@@ -200,19 +200,55 @@
 </nav>
   </div>
 </div><div class="post-content mb-3"><h2 id="introduction-to-linux-operating-systems">Introduction to <em><strong>Linux Operating Systems.</strong></em></h2>
-<p>It is advisable to write everything you do. May be you learnt something new in Version control systems, or to fix something in your operating system. As similar problems becomes convenient if you have solutions to previously faced issues with you. Ofc this also preserve your interest.<!-- raw HTML omitted --></p>
-<p>This blog mainly contains my Learnings and experience about operating systems.Story of having multiple OSes on my machine.  Also <strong>why I prefer linux kernel over Windows</strong><!-- raw HTML omitted --></p>
-<p>About six months ago I thought of switching from windows to linux. But why?</p>
-<blockquote>
-<p>There are countless reasons why one should go for Linux. Once you search on google it will bring you many articles on why you should choose Linux, such as  “Why you should switch to Linux,” “What are the benefits of learning Linux,” and “Is it worth my time to learn Linux while learning programming?”It takes a while, but it&rsquo;s worth the read.
-We&rsquo;ll talk about that sometime later.</p>
+<p>It&rsquo;s worth writing everything you do. Maybe you learned something new in the version control system, or fixed something in your operating system. As similar problems become convenient if you have solutions to problems already encountered. Ofc this also preserve your interest.</p>
+<p>This blog mainly consists of my learnings and experiences about operating systems. The story of having multiple OS&rsquo;s on my machine.  Also <strong>why I prefer linux kernel over Windows</strong></p>
+<pre><code>About six months ago I thought of switching from windows to linux. But why?
+</code></pre><blockquote>
+<p>There are countless reasons to go for Linux. Once you do a search on Google it will bring you many articles on why you should choose Linux, such as  “Why you should switch to Linux,” “What are the benefits of learning Linux,” and “Is it worth my time to learn Linux while learning programming?”It takes a while, but it&rsquo;s worth the read.<br>
+We&rsquo;ll talk about it sometime later.</p>
 </blockquote>
-<p>Generally transitions are always hard and can also be scary. For Windows users who has never used the CLI, transitioning to Linux can be really scary. But also knowing that others also find it difficult can be really consoling at times <em><strong>:smile in pain:</strong></em>. Fear of screwing up makes the transitions difficult. But if you can manage the first few days, the ultimate returns are exponential.<!-- raw HTML omitted --></p>
-<p>Though linux is a great operating system with widespread hardware and software support, but the reality is that sometimes you have to use Windows, perhaps due to key apps that won&rsquo;t run on Linux. So installing Linux alongside Windows(dual boot) was the thing I was going to do.</p>
+<p>In general, transitions are always difficult and can be scary. For Windows users who have never used the CLI, transitioning to Linux can be really scary. But also knowing that others also find it difficult can be really consoling at times <em><strong>:smile in pain:</strong></em>. Fear of screwing up makes the transitions difficult. But if you can manage the first few days, the ultimate returns are exponential.</p>
+<p>Although Linux is a great operating system with extensive hardware and software support, the reality is that sometimes you have to use Windows, probably because of core apps that won&rsquo;t run on Linux. So installing Linux with Windows (dual boot) was what I was going to do.</p>
 <hr>
-<p>At first I chose Ubuntu (as recommended for beginners) to start with. And later installed other linux destros as well.Choose other flavours once you know better and can decide for yourself. Although the dual-boot setup process is not very involved, One can easily dual boot following some articles over internet. But due to different varieties of laptops and thier different workings things doesn&rsquo;t work accordingly. Accidents can still happen. So before you get started, make sure you&rsquo;ve backed up your computer. In addition to backing up your files, consider taking an image backup of the disk as well, though that&rsquo;s not required and can be a more advanced process.
+<hr>
+<hr>
+<p>At first I chose Ubuntu (recommended for beginners) to start with. And later installed other linux destros as well.Choose other flavours once you know better and can decide for yourself. Although the dual-boot setup process is not very involved, One can easily dual boot following some articles on the internet. But due to different types of laptops and their different functioning things don&rsquo;t work accordingly. Accidents can still happen. So before you begin, make sure you have backed up your computer. In addition to backing up your files, consider backing up an image of the disc, though this isn&rsquo;t required and can be a more advanced process.
 <br>
-<br>
+So I followed some <a href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/" target="_blank">articles</a>
+ to dual boot Windows and Ubuntu. Yes I messed up some steps and ended up
+Overwriting Operating System [Windows 10 with Ubuntu] :(<br>
+<div class="alert alert-info" role="alert">
+  <i class="fas fa-fw fa-info-circle"></i>Concise description of the obstacle
+</div>
+
+Before installing Ubuntu I created a free partition on the hard disk drive (HDD) where Ubuntu would be installed during the installation process. Then I booted from the Live Ubuntu USB and started looking for free partitions while allocating disk space. Since I was an absolute beginner at linux, I didn’t know the naming scheme of disks in Linux, also Ubuntu installer did not recognize my HDSo I followed somD and only found the SSD where windows was already installed. And  inadvertently wiped Windows :p. So I couldn&rsquo;t boot into Windows. I tried troubleshooting and advanced recovery options, but it didn&rsquo;t work. Finally I repaired Windows using ISO file.</p>
+<p>After doing some searching around google, I found that it turned out to be because I had RAID enabled for the HDD. Then I saw the operating mode of the Integrated Storage Device Controllers. The storage device was configured to support RAID functions with a VMD controller for all NVMe and SATA devices. In order to boot the OS, the Windows RST driver or the Linux kernel VMD driver must be loaded.
+<div class="alert alert-warning" role="alert">
+  <i class="fas fa-fw fa-exclamation-triangle"></i>If you try disabling RAID in the BIOS then Windows would not boot.
+</div>
+
+For the best of my understanding here are some key points:-</p>
+<ul>
+<li>Set Windows to boot into safe Mode on next restart.
+<ul>
+<li>Press the <strong>Windows logo key + R</strong></li>
+<li>Type <strong>msconfig</strong> in the <strong>Open</strong> box.</li>
+<li>Check the <strong>Safe boot</strong> checkbox under <strong>Boot options</strong> in <strong>Boot tab</strong>.</li>
+</ul>
+</li>
+<li>Enter the BIOS setting and disable RAID. Config Storage device for AHCI/NVMe mode.</li>
+<li>Boot to Windows. Windows will boot into Safe Mode automatically.</li>
+<li>Exit the safe mode, so that the system will boot into normal mode.
+<ul>
+<li>Clear the <strong>Safe boot</strong> checkbox under <strong>Boot options</strong> in <strong>Boot tab</strong>.</li>
+</ul>
+</li>
+</ul>
+<div class="alert alert-success" role="alert">
+  <i class="fas fa-fw fa-check-circle"></i>After this, Windows worked with RAID disabled, and later I was able to install Debian successfully :)
+</div>
+
+<p><br>
 To be continued&hellip;</p>
 </div><hr /><div class="post-navs d-flex mb-3 justify-content-between">
   <div class="post-nav w-50"><div class="prev-post btn btn-sm">
@@ -315,7 +351,7 @@ To be continued&hellip;</p>
       <i class="fas fa-fw fa-2x fa-envelope"></i>
     </a>
   </li><li class="nav-item">
-      <a class="nav-link social-link" target="_blank" href="https://facebook.com/yourfacebookusername" title="Facebook">
+      <a class="nav-link social-link" target="_blank" href="https://facebook.com/sandeep.bijarnia.kumar" title="Facebook">
         <i class="fa-fw fa-2x fab fa-facebook-f"></i>
       </a>
     </li><li class="nav-item">
@@ -327,12 +363,16 @@ To be continued&hellip;</p>
         <i class="fa-fw fa-2x fab fa-instagram"></i>
       </a>
     </li><li class="nav-item">
+      <a class="nav-link social-link" target="_blank" href="https://linkedin.com/in/sandeep-bijarnia-14812b201" title="LinkedIn">
+        <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
+      </a>
+    </li><li class="nav-item">
       <a class="nav-link social-link" target="_blank" href="https://twitter.com/Sandeep_734" title="Twitter">
         <i class="fa-fw fa-2x fab fa-twitter"></i>
       </a>
     </li></nav>
 <div class="copyright mb-2">
-  Copyright © 2021-2021 Sandeep Kumar.
+  Copyleft © 2021-2021 Sandeep Kumar.
 </div>
 </footer>
 <a id="btnScrollToTop" class="btn-scroll-to-top">
