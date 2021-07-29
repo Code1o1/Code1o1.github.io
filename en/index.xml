@@ -53,16 +53,6 @@ Files with the .md or .markdown extension
     </item>
     
     <item>
-      <title>Rienforcement Learning to develop AI agents</title>
-      <link>/en/posts/rienforcement-learning/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/en/posts/rienforcement-learning/</guid>
-      <description>Rienforcement Learning to develop AI agents Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward.Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
-Reinforcement learning differs from supervised learning in not needing labelled input/output pairs be presented, and in not needing sub-optimal actions to be explicitly corrected.</description>
-    </item>
-    
-    <item>
       <title>Blog102</title>
       <link>/en/posts/blog102/</link>
       <pubDate>Sun, 11 Jul 2021 00:00:00 +0000</pubDate>
@@ -82,12 +72,13 @@ Reinforcement learning differs from supervised learning in not needing labelled 
     </item>
     
     <item>
-      <title>Emoji Support</title>
-      <link>/en/posts/emoji-support/</link>
+      <title>Rienforcement Learning to develop AI agents</title>
+      <link>/en/posts/rienforcement-learning/</link>
       <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>/en/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <guid>/en/posts/rienforcement-learning/</guid>
+      <description>Rienforcement Learning to develop AI agents Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward.Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
+Reinforcement learning differs from supervised learning in not needing labelled input/output pairs be presented, and in not needing sub-optimal actions to be explicitly corrected.</description>
     </item>
     
     <item>
@@ -99,6 +90,15 @@ Reinforcement learning differs from supervised learning in not needing labelled 
       <description>Hi! I am a Sophomore at IIT Kanpur.Currently Pursuing my majors in the Department of Computer Science and Engineering.
 There&amp;rsquo;s much more for me rather than just studying. I&amp;rsquo;m interested to jump in and try some coding. I love playing outdoor games, PC gaming at times, writing something to share my stories with, and of course hanging out with my friends.
 Bieng the lone wolf is ok, it tells me you&amp;rsquo;re independent ,brave, strong&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/en/posts/emoji-support/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/posts/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -143,11 +143,6 @@
   </url>
   
   <url>
-    <loc>/en/tags/aca/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/en/categories/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -188,43 +183,8 @@
   </url>
   
   <url>
-    <loc>/en/tags/ml/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/en/categories/programming/</loc>
     <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/posts/rienforcement-learning/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/tags/rl/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/categories/shortcode/</loc>
-    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="/zh-tw/categories/shortcode/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="/zh-cn/categories/shortcode/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories/shortcode/"
-                />
   </url>
   
   <url>
@@ -268,17 +228,57 @@
   </url>
   
   <url>
-    <loc>/en/tags/emoji/</loc>
+    <loc>/en/categories/shortcode/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="/zh-tw/categories/shortcode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="/zh-cn/categories/shortcode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/shortcode/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/aca/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/en/posts/emoji-support/</loc>
+    <loc>/en/tags/ml/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/rienforcement-learning/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/rl/</loc>
     <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/en/about/</loc>
+    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/emoji/</loc>
+    <lastmod>2021-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/emoji-support/</loc>
     <lastmod>2021-06-02T00:00:00+00:00</lastmod>
   </url>
   

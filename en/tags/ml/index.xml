@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
-    <lastBuildDate>Mon, 12 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rienforcement Learning to develop AI agents</title>
       <link>/en/posts/rienforcement-learning/</link>
-      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/posts/rienforcement-learning/</guid>
       <description>Rienforcement Learning to develop AI agents Reinforcement learning (RL) is an area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward.Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning.
