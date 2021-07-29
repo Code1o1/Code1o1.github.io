@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
-    <lastBuildDate>Mon, 26 Jul 2021 22:13:43 +0530</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 10:09:23 +0530</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feature of Scala</title>
+      <link>/en/posts/feature-of-scala/</link>
+      <pubDate>Thu, 29 Jul 2021 10:09:23 +0530</pubDate>
+      
+      <guid>/en/posts/feature-of-scala/</guid>
+      <description>A short interpretation on some superb features of Scala. I&amp;rsquo;m writting this microblog while learning Scala as a part of my SnT project (gaining insight into different programming languages ​​and understanding different paradigms of programming.)
+Scala The name is an acronym from &amp;lsquo;Scala&amp;rsquo;able Language. As it&amp;rsquo;s purpose of introduction was to resolve scalability issues. The evolution of traditional languages such as Java, C#, and C++ has slowed down considerably, and programmers who are eager to use more modern language features are looking elsewhere.</description>
+    </item>
+    
     <item>
       <title>Interfaces</title>
       <link>/en/posts/interfaces/</link>
@@ -67,8 +77,8 @@ Reinforcement learning differs from supervised learning in not needing labelled 
       <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>/en/posts/programming-languages/</guid>
-      <description>I am writing this blog during my summer project on gaining insight into different programming languages ​​and understanding different paradigms of programming.
-    General Concepts- Here is a quick overview on Fundamentals of Programming Languages : Similar to human interface languages, which have their own set of rules that have to be followed in order to write correctly in that language, programming languages ​​also follow certain rules.Classification of programming languages on the basis of -</description>
+      <description>I am writing this fun blog while learning different Programming Languages as a part of my college project (gaining insight into different programming languages ​​and understanding different paradigms of programming.)
+    General Concepts- Here is a quick overview on Fundamentals of Programming Languages : Similar to human interface languages, which have their own set of rules that have to be followed in order to write correctly in that language, programming languages ​​also follow certain rules.</description>
     </item>
     
     <item>

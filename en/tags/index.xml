@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
-    <lastBuildDate>Mon, 26 Jul 2021 22:13:43 +0530</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 10:09:23 +0530</lastBuildDate><atom:link href="/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scala</title>
+      <link>/en/tags/scala/</link>
+      <pubDate>Thu, 29 Jul 2021 10:09:23 +0530</pubDate>
+      
+      <guid>/en/tags/scala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>/en/tags/twitter/</link>
+      <pubDate>Thu, 29 Jul 2021 10:09:23 +0530</pubDate>
+      
+      <guid>/en/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>GO</title>
       <link>/en/tags/go/</link>
