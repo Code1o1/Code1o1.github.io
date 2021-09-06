@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Competitve Programming | Sandeep&#39;s World</title><link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/images/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/images/favicons/manifest.json">
+<link rel="icon" href="/images/favicons/favicon.ico">
+<meta name="keywords" content="" />
+<meta name="description" content="Competitive coding resources" /><meta itemprop="name" content="Competitve Programming">
+<meta itemprop="description" content="Competitive coding resources">
+<meta itemprop="datePublished" content="2021-09-07T01:05:56+05:30" />
+<meta itemprop="dateModified" content="2021-09-07T01:05:56+05:30" />
+<meta itemprop="wordCount" content="3822">
+<meta itemprop="image" content="/images/cp.jpeg">
+
+
+
+<meta itemprop="keywords" content="Cp,c&#43;&#43;," />
+<meta property="og:title" content="Competitve Programming" />
+<meta property="og:description" content="Competitive coding resources" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/en/posts/cp/" />
+<meta property="og:image" content="/images/cp.jpeg" />
+<meta property="article:published_time" content="2021-09-07T01:05:56+05:30" />
+<meta property="article:modified_time" content="2021-09-07T01:05:56+05:30" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/images/cp.jpeg"/>
+
+<meta name="twitter:title" content="Competitve Programming"/>
+<meta name="twitter:description" content="Competitive coding resources"/>
+<meta name="twitter:site" content="@Sandeep_734"/>
+<meta data-name="palette" content="blue"><link rel=stylesheet href="/css/bundle.min.5e28a02b1827120280de54374daf944524694ccfd699b58a014376162da28321.css" integrity="sha256-XiigKxgnEgKA3lQ3Ta&#43;URSRpTM/WmbWKAUN2Fi2igyE=" crossorigin="anonymous"><script src="/js/bundle.min.aae996eab2b4188b8e1d806a6895ef5b02e8b97a6ceb11faef9b9b1cb99021be.js" integrity="sha256-qumW6rK0GIuOHYBqaJXvWwLouXps6xH675ubHLmQIb4=" crossorigin="anonymous"></script>
+</head><body><header><nav class="navbar navbar-expand-xl fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="/en/">
+      <img class="logo" alt="Logo" src="/images/title.jpeg" loading="lazy">SANDEEP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-1 mb-2 mb-lg-0"><form class="search-bar d-flex ms-1" action="/en/search">
+  <div class="input-group input-group-sm">
+    <button class="btn btn-search disabled position-absolute left-0" type="submit"><i class="fas fa-fw fa-search"></i></button>
+    <input class="form-control rounded-pill" id="searchQuery" name="q" type="search" aria-label="Search">
+  </div>
+</form></ul><ul class="navbar-nav me-1 mb-2 mb-lg-0 me-1 ms-auto"><li class="nav-item">
+          <a class="nav-link" href="/en/archives">
+            <i class="fas fa-fw fa-file-archive"></i>Archives
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/en/categories">
+            <i class="fas fa-fw fa-folder"></i>Categories
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/en/tags">
+            <i class="fas fa-fw fa-tags"></i>Tags
+          </a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="/en/series">
+            <i class="fas fa-fw fa-columns"></i>Series
+          </a>
+        </li><li class="nav-item dropdown">
+          <a class="nav-link" id="navbarDropdown-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-fw fa-chevron-circle-down"></i>Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown-dropdown"><li>
+              <a class="dropdown-item"
+                href="https://github.com/sandeepb20" target="_blank">
+                <i class="fab fa-fw fa-github"></i>Github
+              </a>
+            </li></ul>
+        </li><li class="nav-item">
+  <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasSettings" role="button"
+    aria-controls="offcanvasSettings">
+    <i class="fas fa-fw fa-sliders-h"></i> Settings
+  </a>
+</li>
+
+<div class="offcanvas offcanvas-end surface h-100" tabindex="-1" id="offcanvasSettings"
+  aria-labelledby="offcanvasSettingsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" w id="offcanvasSettingsLabel"><i class="fas fa-fw fa-sliders-h"></i> Settings</h5>
+    <a role="button" data-bs-dismiss="offcanvas" aria-label="Close">
+      <span class="fas fa-2x fa-fw fa-times"></span>
+    </a>
+  </div>
+  <div class="offcanvas-body"><section class="setting">
+  <form class="row">
+    <div class="col-auto">
+      <label><i class="fas fa-fw fa-adjust"></i> Mode</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="modeSwitcher">
+      </div>
+    </div>
+  </form>
+</section><section class="setting">
+  <form class="row">
+    <div class="col-auto">
+      <label><i class="fas fa-fw fa-language"></i> Language</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <select class="form-select form-select-sm language-picker" aria-label="Language dropdown" onchange="window.location = this.value;">
+          <option value="/en/" selected>English</option></select>
+    </div>
+  </form>
+</section>
+<section class="setting">
+  <form class="font-size-switcher-form row">
+    <div class="col-auto">
+      <label for="fontSize" class="form-label"><i class="fas fa-fw fa-font"></i> Font Size</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <input type="range" class="form-range" min="-2" max="2" id="fontSize">
+    </div>
+  </form>
+</section>
+
+<section class="setting palettes">
+  <form class="row">
+    <div class="col-auto">
+      <label><i class="fas fa-fw fa-palette"></i> Palette</label>
+    </div>
+    <div class="col-auto ms-auto">
+      <span id="btnPalette" class="btn btn-sm"><i class="fas fa-eye-dropper"></i></span>
+    </div>
+  </form>
+  <div class="container mt-2 visually-hidden" id="palettePicker">
+    <div class="btn-group"><button type="button" id="palette-blue" title="Blue" 
+          class="btn btn-sm palette bg-blue d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-blue-gray" title="Blue Gray" 
+          class="btn btn-sm palette bg-blue-gray d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-brown" title="Brown" 
+          class="btn btn-sm palette bg-brown d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-cyan" title="Cyan" 
+          class="btn btn-sm palette bg-cyan d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-green" title="Green" 
+          class="btn btn-sm palette bg-green d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-indigo" title="Indigo" 
+          class="btn btn-sm palette bg-indigo d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-orange" title="Orange" 
+          class="btn btn-sm palette bg-orange d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-pink" title="Pink" 
+          class="btn btn-sm palette bg-pink d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-purple" title="Purple" 
+          class="btn btn-sm palette bg-purple d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-red" title="Red" 
+          class="btn btn-sm palette bg-red d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-teal" title="Teal" 
+          class="btn btn-sm palette bg-teal d-flex align-items-center justify-content-center">
+        </button><button type="button" id="palette-yellow" title="Yellow" 
+          class="btn btn-sm palette bg-yellow d-flex align-items-center justify-content-center">
+        </button></button>
+    </div>
+  </div>
+</section></div>
+</div></ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main role="main" class="container">
+      <div class="row content">
+<div class="col-lg-8">
+  <div class="container"><nav class="row" aria-label="breadcrumb">
+  <ol class="breadcrumb surface"><li class="breadcrumb-item"><a href="/en/">Home</a></li><li class="breadcrumb-item"><a href="/en/posts/">Posts</a></li><li class="breadcrumb-item active">Competitve Programming</li></ol>
+</nav><article class="post row surface"><div class="post-toolbox">
+  <div class="col-12 d-none d-lg-block">
+    <a id="sidebarToggler" class="fas fa-fw fa-2x fa-expand-alt" role="button"></a>
+  </div>
+</div>
+<h1 class="post-title my-3">Competitve Programming</h1><div class="post-meta mb-3">
+  <span class="post-date me-2">
+    <i class="fas fa-fw fa-calendar-alt"></i>Sep 7, 2021
+  </span>
+  <span class="post-reading-time me-2">
+    <i class="fas fa-fw fa-coffee"></i>18 min read
+  </span>
+<a href="/en/series/cp/" class="post-taxonomy">#Cp</a><a href="/en/tags/cp/" class="post-taxonomy">#Cp</a><a href="/en/tags/c&#43;&#43;/" class="post-taxonomy">#c&#43;&#43;</a></div>
+<div class="post-share mb-3"><div class="addthis_inline_share_toolbox"></div></div><a id="btnTOC" class="fas fa-fw fa-2x fa-list-alt position-fixed" data-bs-toggle="offcanvas" href="#offcanvasTOC" aria-controls="offcanvasTOC" role="button">
+</a>
+
+<div class="offcanvas offcanvas-end surface" tabindex="-1" id="offcanvasTOC" aria-labelledby="offcanvasTOCLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasTOCLabel">Table Of Contents</h5>
+    <a role="button" data-bs-dismiss="offcanvas" aria-label="Close">
+      <span class="fas fa-2x fa-fw fa-times"></span>
+    </a>
+  </div>
+  <div class="offcanvas-body">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#why-did-i-write-this-blog">Why did I write this blog?</a></li>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#motivation">Motivation</a></li>
+    <li><a href="#how-to-get-started-with-the-sport-of-competitive-programming"><em><strong>How to get started with the sport of competitive programming?</strong></em></a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#language-to-be-chosen-for-competitive-programming"><strong>Language to be chosen for Competitive Programming</strong></a></li>
+    <li><a href="#editor-to-be-used-for-competitive-programming"><strong>Editor to be used for Competitive Programming</strong></a></li>
+    <li><a href="#templates-and-snippets-in-sublime-text"><strong>Templates and Snippets in Sublime Text</strong></a>
+      <ul>
+        <li><a href="#snippets-in-sublime-text">Snippets in Sublime Text</a></li>
+      </ul>
+    </li>
+    <li><a href="#ethics-of-competitive-programming"><strong>Ethics of Competitive Programming</strong></a></li>
+  </ul>
+</nav>
+  </div>
+</div><div class="post-content mb-3"><h1 id="competitive-coding-resources">Competitive Coding Resources</h1>
+<p>Here are some CP resources that I found useful.</p>
+<h2 id="why-did-i-write-this-blog">Why did I write this blog?</h2>
+<ul>
+<li>Good question! There are plenty of resources out there on how to start competitive programming but what I found missing there were proper links to resources.</li>
+<li>I also had selfish reasons:-  I wanted a short description, which nevertheless contained the major ideas underlying the algorithms, a discussion of their relative strengths and weaknesses, with hints on what is known (and not known, but would be good to know) about these algorithms. If I succeeded, time will tell. Or, you can, by sending me an e-mail at <a href="mailto:sandeepskr1721@gmail.com">sandeepskr1721@gmail.com</a></li>
+</ul>
+<h2 id="abstract">Abstract</h2>
+<p>Data structure is all about organising, retrieving, storing and managing data effectively, such that we can perform specific operation efficiently. <br>
+Whereas an Algorithms is a sequence of computational steps that transform the input into the output.
+Learning data structures and algorithms allow us to write efficient and optimized computer programs.</p>
+<h2 id="motivation">Motivation</h2>
+<p>Competitive Programming(CP) is very important if one aims to improve their overall programming skills. It not only increases your problem solving aptitude, speed and knowledge but also proves to be benefitical for interships and placements. With that said, many of us ignore CP or coding up until the tests start just coz we have a mindset that coding is hard and its not our cup of tea.</p>
+<h2 id="how-to-get-started-with-the-sport-of-competitive-programming"><em><strong>How to get started with the sport of competitive programming?</strong></em></h2>
+<h4 id="1-pick-a-suitable-programming-language">1. Pick a suitable programming language</h4>
+<p>You can do competitive programming in any programming language but it is recommended that you choose one of C/C++ or Java.
+C++ — Highly recommended! Why? Because it’s very fast. Implementing different algorithms takes little time because of STL which has Set, Map, Vectors etc. These can come very instrumental in solving certain kinds of problems. C++ is accepted in all competitions.</p>
+<h5 id="learn-cc-">Learn C/C++ :</h5>
+<ul>
+<li>For a basic overview
+<ul>
+<li><a href="https://www.youtube.com/watch?v=vLnPwxZdW4Y" target="_blank">C++ tutorial by freeCodeCamp</a>
+</li>
+<li>Learn Standard Template Library:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=g-1Cn3ccwXY&amp;t=1726s" target="_blank">https://www.youtube.com/watch?v=g-1Cn3ccwXY&amp;t=1726s</a>
+</li>
+<li><a href="https://www.hackerearth.com/practice/notes/standard-template-library/" target="_blank">https://www.hackerearth.com/practice/notes/standard-template-library/</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>For more depth
+<ul>
+<li><a href="https://www.geeksforgeeks.org/c-programming-basics/" target="_blank">https://www.geeksforgeeks.org/c-programming-basics/</a>
+</li>
+<li>Learn Standard Template Library:
+<ul>
+<li><a href="https://www.geeksforgeeks.org/the-c-standard-template-library-stl/" target="_blank">GFG STL</a>
+</li>
+<li><a href="https://www.topcoder.com/community/competitive-programming/tutorials/power-up-c-with-the-standard-template-library-part-1/" target="_blank">Topcoder STL Part-1</a>
+</li>
+<li><a href="https://www.topcoder.com/community/data-science/data-science-tutorials/power-up-c-with-the-standard-template-library-part-2/" target="_blank">Topcoder STL Part-2</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>OOPS
+<ul>
+<li><a href="https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/" target="_blank">Object Oriented Programming in cpp</a>
+</li>
+</ul>
+</li>
+<li>Practice Problems to implement STL
+<ul>
+<li><a href="https://www.hackerrank.com/domains/cpp?filters%5Bsubdomains%5D%5B%5D=stl">https://www.hackerrank.com/domains/cpp?filters%5Bsubdomains%5D%5B%5D=stl</a></li>
+<li><a href="https://codeforces.com/problemset?tags=implementation">https://codeforces.com/problemset?tags=implementation</a></li>
+</ul>
+</li>
+<li>BOOKS
+<ul>
+<li><a href="https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list">https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="2-choose-a-powerful-code-editor">2. Choose a powerful code editor</h4>
+<p>To increase the speed and efficiency of your work, it is recommended that you write your code in a code editor. VS Code, Sublime Text 3 &amp; Vim are some of the popular editors where you can use their cool features and practice your craft. Use STL, snippets, and templates whenever you can; it not only saves your code length but also decreases the time to write your code. Now you can focus mainly on solving the actual logic of the problems.</p>
+<ul>
+<li>
+<p>Sublime Text is lightweight and easy to use.</p>
+<ul>
+<li><a href="https://medium.com/programming-club-iit-kanpur/gearing-up-for-competitive-programming-86833f2325fb">https://medium.com/programming-club-iit-kanpur/gearing-up-for-competitive-programming-86833f2325fb</a></li>
+<li><a href="https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/?fbclid=IwAR3vftDG6ot7A69DwVYBgswK3ljOpq1JtLvccRV9OXpk0TbtcnpsperUozs" target="_blank">https://www.geeksforgeeks.org/setting-up-sublime-text-for-cpp-competitive-programming-environment/</a>
+</li>
+</ul>
+</li>
+<li>
+<p>VS Code comes with many more features than sublime. You can give it a try.</p>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/how-to-setup-competitive-programming-in-visual-studio-code-for-c/">https://www.geeksforgeeks.org/how-to-setup-competitive-programming-in-visual-studio-code-for-c/</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="3-choose-a-few-platforms-to-practice-and-start-participating-in-contests">3. Choose a few platforms to practice and start participating in contests</h4>
+<ul>
+<li>
+<p><a href="https://www.hackerrank.com/" target="_blank">Hackerrank</a>
+</p>
+<ul>
+<li>I recommend for beginners to start with Hackerrank. It has a good set of problems placed in a well-defined manner according to the tags &amp; difficulty levels and undoubtedly has the best user interface &amp; IDE.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://codeforces.com/" target="_blank">https://codeforces.com/</a>
+</p>
+<ul>
+<li>Getting Started: Go to the problem set tab. Set difficulty(mid-right of your screen.) to 800-900. Select a question by clicking over it. Write code on the text editor on your laptop. Save your code in a .cpp file. Upload that file on the website through choose file option under Submit?. Couldn’t solve? See editorial solution by scrolling to the bottom of the page and selecting the editorial link. Increase difficulty by 100 once you solve 10-15 problems. Start giving contests after you reach 1100-1200 difficulty in practice.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.geeksforgeeks.org/" target="_blank">GFG</a>
+</p>
+<ul>
+<li>For references around data structures and algorithms, consider GeeksforGeeks and original documentation like <a href="https://en.cppreference.com/w/" target="_blank">CPPreference</a>
+.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://atcoder.jp/" target="_blank">AtCoder</a>
+</p>
+</li>
+<li>
+<p><a href="https://www.codechef.com/" target="_blank">https://codechef.com/</a>
+</p>
+</li>
+<li>
+<p><a href="https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/" target="_blank">HackerEarth</a>
+</p>
+</li>
+<li>
+<p><a href="https://leetcode.com/" target="_blank">Leetcode</a>
+</p>
+</li>
+</ul>
+<h4 id="4-learn-data-structures-and-algorithms">4. Learn Data Structures and algorithms:</h4>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLg7Kq0y1-ZGt4VDL5tjiAO1UUvG_8O3XO" target="_blank">ESO207 videos</a>
+
+These are some commonly used data structures used in C++. Don’t worry if you can’t understand these, just have patience and enthu.</li>
+<li><a href="https://www.topcoder.com/thrive/articles/Data%20Structures" target="_blank">https://www.topcoder.com/thrive/articles/Data%20Structures</a>
+</li>
+</ul>
+<h4 id="5learning-dp-is-critical-this-link-should-cover-the-basics-of-dp">5.Learning DP is critical. This link should cover the basics of DP.</h4>
+<ul>
+<li><a href="https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/" target="_blank">TopCoder Dynamic Programming From Novice To Advanced </a>
+</li>
+</ul>
+<h4 id="6-practice-more">6. Practice more:</h4>
+<ul>
+<li><a href="https://cses.fi/?fbclid=IwAR3uOtk3pUsZ3a31HGjIQ7fpRSWitz7GMSnXKeYaToJZAvXWiajE8tY2iHw" target="_blank">https://cses.fi/</a>
+</li>
+<li><a href="https://leetcode.com/?fbclid=IwAR1wb904oK9Pm_lp1xehn-bECXI_9p3vQ-EhT0RtX60E5ZmcO12l9PsMLao" target="_blank">https://leetcode.com/</a>
+</li>
+</ul>
+<h4 id="7-practice-dp">7. Practice DP:</h4>
+<ul>
+<li><a href="https://atcoder.jp/contests/dp/tasks?fbclid=IwAR1ES8hUnKLcUKI7x86Z_Wi3AVDEdTxs_lqaBgiiviKHAlV0DPOP1M7HJbg" target="_blank">https://atcoder.jp/contests/dp/tasks</a>
+</li>
+<li>Codeforces questions with DP tag</li>
+<li><a href="https://codeforces.com/blog/entry/67679?fbclid=IwAR20qU0UX7_-_LrUgQ59kCs4dQnQ5ZGC6z7z8uv4GPEBhJPP9mCAKPmpddQ" target="_blank">https://codeforces.com/blog/entry/67679</a>
+</li>
+<li><a href="https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/" target="_blank">https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/</a>
+ (optional)</li>
+<li>CSES and Leetcode problems(optional)</li>
+</ul>
+<hr>
+<hr>
+<hr>
+<h4 id="some-other-resources">Some other resources</h4>
+<ul>
+<li>
+<p><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank">https://github.com/smv1999/CompetitiveProgrammingQuestionBank</a></p>
+</li>
+<li>
+<p><a href="https://github.com/kunal-kushwaha/Competitive-Programming-Resources">https://github.com/kunal-kushwaha/Competitive-Programming-Resources</a></p>
+</li>
+<li>
+<p><a href="https://github.com/hkirat/Algorithmic-Resources">https://github.com/hkirat/Algorithmic-Resources</a></p>
+</li>
+</ul>
+<hr>
+<p>There is so much more to tell about the same. I’ll be discussing them in detail on another day. Remember there is no shortcut for success. The harder the path, the better the fruit will be.
+Until then, practice, have fun, and learn a lot.</p>
+<hr>
+<hr>
+<hr>
+<h1 id="basics-and-ethics-of-competitive-programming">Basics and Ethics of Competitive Programming</h1>
+<p>Hello guys!</p>
+<p>Many of you have been wondering why are we doing CP or what benefits will it provide. Maybe for some of you, it might not be cool as some other fields like AI or ML which fascinates most people or like developing a web app (A cool stuff for many people). The main objective of competitive programming isn’t to have you implement all the fancy algorithms and data structures from scratch. Rather, it is to develop problem-solving skills.</p>
+<p>Well now is the time that we should focus on some of the key steps (like which language is best or which editor should we use) which we need to keep in mind to learn Competitive Programming.</p>
+<h2 id="language-to-be-chosen-for-competitive-programming"><strong>Language to be chosen for Competitive Programming</strong></h2>
+<p>You all have seen that there are various languages in which you can submit the solutions to a problem on all the platforms (Codeforces, Codechef, TopCoder, AtCoder). However, if you have noticed that almost all of the users submit their solution only in C++. This is because C++ has a very nice library STL(Standard Template Library) in which there are many in-build functions that we can directly use. So, it is recommended that if you use any other language than C++ then it is the time that you should switch to C++ and be comfortable in it. You can refer to <a href="https://docs.google.com/document/d/1SSPtJEyM6Ze4DePE-EBhIHYqb2kumUvpYXehmzKK2xQ/edit?usp=drivesdk" target="_blank">this</a>
+ document to switch from C to C++.</p>
+<h2 id="editor-to-be-used-for-competitive-programming"><strong>Editor to be used for Competitive Programming</strong></h2>
+<p>Some of you may have thought that which editor to be used for competitive programming. Well, some of the good editors for CP are Sublime Text (for both Linux and Windows), CodeBlocks (for Windows only), and Geany. However, if someone still uses online editor (GeeksForGeeks, Codeforces, Ideone, or CodeChef IDE) then switch to offline editors as soon as possible. Online editors should not be used during the contests because the site may crash at that time and you may lose the unsaved code. Also, if you are using Ideone or Pastebin then your code may get stolen and you might be caught in plagiarism.</p>
+<p>Now talking about the offline editors, if you have Linux installed on your laptop then you can easily set up Sublime Text on it. (<a href="https://www.sublimetext.com/docs/3/linux_repositories.html" target="_blank">Installing Sublime Text on Linux</a>
+, <a href="https://blog.codingblocks.com/2016/setting-up-sublime-text-for-competitive-coding/" target="_blank">Set Up Sublime Text in Linux</a>
+). However, if you are using Windows then first try to set up Sublime Text (<a href="https://medium.com/sabuj-jana/my-sublime-text-setup-for-competitive-coding-in-c-e439bd361f23" target="_blank">Sublime Text for Windows</a>
+). However, if it is giving any errors which you are not able to resolve then you can set up CodeBlocks easily on your system. You can also setup Geany on your Linux system if you want. (Here is a video of Errichto for <a href="https://www.youtube.com/watch?v=ePZEkbbf3fc" target="_blank">Setting up Geany for Linux Environment</a>
+)</p>
+<p><strong>P.S.</strong> The further blog will be in consideration that now you have switched to C++.</p>
+<h2 id="templates-and-snippets-in-sublime-text"><strong>Templates and Snippets in Sublime Text</strong></h2>
+<p>Now that you have begun coding in C++, let&rsquo;s talk about the template which you will need (No-one wants to write the include and define statements every time in a fresh code). You all have seen that many of the users have a fixed set of lines that are present in every code they submit. A basic template which you can all use is :</p>
+<p><strong>Template Code</strong></p>
+<pre><code>    #include &lt;bits/stdc++.h&gt;
+    typedef long long int ll;
+    #define ld long double
+    #define pb push_back
+    /* You may enter other macros defined by you */
+    
+    using namespace std;
+    
+    const int MOD = 1e9+7;
+    const ld PI = acos(-1);
+    const ld EPS = 1e-9;
+    const ll INF = 1e18;
+    
+    /* You may enter some functions too if you find them important */
+    
+    void solve(){
+    
+    	
+    
+    	return;
+    }
+    	
+    int main(){
+    
+    	ios::sync_with_stdio(0);
+    	cin.tie(0); cout.tie(0);
+    
+    	int TC = 1,t = 0;
+    	cin &gt;&gt; TC;
+    	while(t++ &lt; TC){
+    		// cout &lt;&lt; &quot;Case #&quot; &lt;&lt; t &lt;&lt; &quot;: &quot;; // For Google CodeJam and Kickstart
+    		solve();
+    		// cout &lt;&lt; &quot;/n&quot;;
+    	}
+    
+    	cerr &lt;&lt; &quot;Time : &quot; &lt;&lt; 1000 * ((double)clock()) / (double)CLOCKS_PER_SEC &lt;&lt; &quot;ms\n&quot;;
+    
+    	return 0; 
+    }
+</code></pre><p>Talking about the template, let&rsquo;s first understand some of its important parts.</p>
+<p>The starting part includes the header <code>bits/stdc++.h</code>. It is an implementation file for a precompiled header. It is a good idea to minimize the include. It actually includes a lot of files, which your program may not need, thus increase both compile-time and program size unnecessarily. But in contests, using this file is a good idea, when you want to reduce the time wasted in doing chores. It works in most online judges, programming contest environments, including ACM-ICPC (Sub-Regionals, Regionals, and World Finals) and many online judges. However, The disadvantages of it are that it increases the compilation time and uses an internal non-standard header file of the GNU C++ library, and so will not compile in MSVC, XCode, and many other compilers but however, it compiles in Sublime Text.</p>
+<p>Next, we have some macros which can be used to reduce the time needed for writing the same piece of code every time in your solution. For example, <code>#define pb push_back</code> is the most commonly used macro because we generally have to use <code>push_back</code> many times in a problem where a new element has to be added to a vector at the end. However, by defining this macro, we only have to write pb instead of push_back. You can also define your own macros if you want to have. However, it is also not a rule to have the same macros as in the template provided. You may also change them if you want.</p>
+<p>You may have noticed here that for <code>long long int</code> we have used <code>typedef long long int ll;</code> instead of <code>define ll long long int</code> because the <code>typedef</code> has the advantage that it obeys the scope rules. That means you can use the same name for the different types in different scopes. It can have file scope or block scope in which declare. In other words, #define does not follow the scope rule. You can read more about scope rules <a href="https://sites.google.com/site/computerbookscentre/scope-rules" target="_blank">here</a>
+.</p>
+<p>Proceeding onwards, we define some of the most commonly used constants which we generally require in one or the other problem. The first of them is <code>MOD</code> which is always used whenever the answer exceeds the limit of long long int or int. The value of <code>MOD</code> may vary from question to question but the most commonly used values are <strong>1000000007(1e9+7)</strong> and <strong>998244353</strong>. The next used is <code>PI</code> which is used whenever dealing with a problem involving geometry or angles (Note — the angles for all the trigonometric functions have to be in radians and not degrees). The next const <code>EPS</code> is generally used whenever we deal with problems involving precision on real numbers (generally the case for Binary Search on real numbers). With this, we come to our last constant <code>INF</code> which is used for the problems where we want to print &ldquo;NO/-1/0&rdquo; if the number exceeds this number.</p>
+<p>You can also add some common functions which are generally used in your templates like the function for modulo arithmetic or modulo inverse. (You may think of adding gcd function also but it is already present in STL and can be used directly as <code>__gcd(int x, int y)</code>. Try to guess the complexity of this inbuild gcd function. However, if you are using C++17 or above then <code>gcd(int x, int y)</code> is also fine to work with).</p>
+<p>You must have seen various problem statements saying: &ldquo;Warning: Large I/O data, be careful with certain languages (though most should be OK if the algorithm is well designed)&rdquo;. It is often recommended to use <code>scanf/printf</code> instead of <code>cin/cout</code> for fast input and output. (However, for C++17(64) <code>printf</code> is very slow as compared to <code>cout</code>. So, if you are using C++17(64) then you should never use <code>printf</code> in your code).However, you can still use <code>cin/cout</code> and achieve the same speed as <code>scanf/printf</code> by including the following two lines in your main() function:</p>
+<pre><code>ios::sync_with_stdio(0); &lt;br&gt;
+cin.tie(0); cout.tie(0);
+</code></pre>
+<p>The first line toggles on or off the synchronization of all the C++ standard streams with their corresponding standard C streams if it is called before the program performs its first input or output operation. Adding <code>ios_base::sync_with_stdio(false);</code> (which is true by default) before any I/O operation avoids this synchronization. It is a static member of the function of <code>std::ios_base. tie()</code> is a method which simply guarantees the flushing of <code>std::cout</code> before <code>std::cin</code> accepts an input. This is useful for interactive console programs that require the console to be updated constantly but also slows down the program for large I/O.</p>
+<p>You may have noticed that in the template there is a commented line <code>cout &lt;&lt; &quot;\n&quot;</code>. Some of you may have wondered why <code>endl</code> is not being used in this. It is because <code>endl</code> flushes the output buffer everytime it is called too along with printing a new line but <code>\n</code> only prints a new line. For interactive problems, it is always recommended that you should flush the output after printing every line and hence, you can always use endl instead of printing \n and then flushing the output buffer separately.</p>
+<p>At last, we are now left with the <code>cerr</code> object. <code>std::cerr</code> is an object of class ostream that represents the standard error stream oriented to narrow characters (of type char). It corresponds to the C stream stderr. The standard error stream is a destination of characters determined by the environment. This line will print the total time needed for compiling and running your program for a specific test case in milliseconds.</p>
+<h3 id="snippets-in-sublime-text">Snippets in Sublime Text</h3>
+<p>This brings us to the end of our template. Now you may think that you should make a separate cpp file where you can save your template but Sublime Text offers another simpler solution to that. You can add your template as a snippet in Sublime Text. <a href="https://www.quora.com/How-do-I-add-templates-for-competitive-programming-permanently/answer/Abhishek-Kumar-10115" target="_blank">Adding Snippet in Sublime Text</a>
+. You can also add snippets for some important data structures like Segment Tree.</p>
+<h2 id="ethics-of-competitive-programming"><strong>Ethics of Competitive Programming</strong></h2>
+<p>There might be points in time where some you would feel stuck with a problem within a contest and are frustrated to the core, or just lazy to go through with it anymore. Easy ways out? Possibly look at solutions for the problems if it&rsquo;s a mashup/virtual contest, or during official contests, talk and start discussing about the problem(s) with friends and come up with a solution collectively / ask someone for the solution.</p>
+<p>So should you opt for easy ways out ? I&rsquo;ll let you figure that out. If your answer is &ldquo;Yes&rdquo; then, please, stop fooling yourself by giving yourself a fake sense of happiness by solving extra problem(s) in the contest/mashup/whatever. It&rsquo;s definitely not worth it and completely useless. The main purpose of CP is to improve your problem solving skills, which is beaten by this.</p>
+<p>However, it is not restricted to copy standard codes from some of the standard sites like CP-Algorithms, Codeforces, and GeeksForGeeks. However, if you copy a code from these sites or from another previously occurred similar problem then always mention the source of that code in the comments so that you can argue about it if your code is caught in plagiarism.</p>
+<h1 id="stl">STL</h1>
+<p>Hey Guys!</p>
+<p>I have compiled some very useful resources for our first topic — Standard Template Library.</p>
+<ul>
+<li>
+<p><a href="https://www.topcoder.com/thrive/articles/Power%20up%20C&#43;&#43;%20with%20the%20Standard%20Template%20Library%20Part%20One" target="_blank">Topcoder STL</a>
+:- A very useful, self-explanatory, and easy to understand resource.</p>
+</li>
+<li>
+<p><a href="https://youtu.be/g-1Cn3ccwXY" target="_blank">Rachit Jain STL</a>
+</p>
+</li>
+</ul>
+<p>The following resources are optional and I recommend you to go through these resources only after completing the above two links.</p>
+<ul>
+<li>
+<p><a href="https://www.hackerearth.com/practice/notes/standard-template-library/" target="_blank">Hackerearth STL</a>
+</p>
+</li>
+<li>
+<p><a href="https://codeforces.com/blog/entry/6058?" target="_blank">Topcoder article summary</a>
+</p>
+</li>
+</ul>
+<p>To overcome the issue of creating functions that perform the same operations but work with different data types, C++ provides a feature to create a single generic function instead of many. The collection of these genric classes and functions is called STL which includes many different kinds of algorithms to provide support to tasks such as initializing, searching, copying, sorting, and merging, Algorithms are implemented by template functions.</p>
+<p>Standard Template Library provides us with many important trivial data structures and algorithms which generally take up a lot of time to implement by ourselves. In order to be a good Competitive Programmer, you must have a strong command over STL.</p>
+<p>Go through these links, discuss among yourselves and ping the mentors with any doubts. In a few days, we will be adding a long contest with various types of problems for you to practice.</p>
+<p>Happy Learning!</p>
+<h1 id="binary-search">Binary Search</h1>
+<p>Hey Guys!</p>
+<p>We have compiled some resources you might find useful to study the second topic we would be covering, Binary Search. You might be aware of most of what is discussed in them, but I would still advise you to go through them and practice problems concerning binary search. We would soon be hosting a long contest for the same as well.</p>
+<p>Leetcode: <a href="https://leetcode.com/problems/binary-search/discuss/423162/Binary-Search-101" target="_blank">Binary Search 101</a>
+ (I found this article easy to understand. It has simulations as well for better concept clarity)</p>
+<p>Topcoder: <a href="https://www.topcoder.com/community/competitive-programming/tutorials/binary-search" target="_blank">BS Topcoder</a>
+ (One of the better binary search tutorials out there)</p>
+<p>(Optional) Errichto: <a href="https://www.youtube.com/watch?v=GU7DpgHINWQ" target="_blank">Binary Search tutorial (C++ and Python)</a>
+ (Not a very big fan of this video, but covers an appreciable amount of basics)</p>
+<p><a href="https://www.spoj.com/problems/AGGRCOW/" target="_blank">BS SPOJ</a>
+ (Make sure you try hard, and not look at the solution for a long time, it&rsquo;ll increase your appreciation of the binary search algorithm highly)</p>
+<p><a href="https://drive.google.com/file/d/0B1yhFrxtsDsyLTdDUTZMSUV6RzA/view" target="_blank">https://drive.google.com/file/d/0B1yhFrxtsDsyLTdDUTZMSUV6RzA/view</a>
+ (This seems like a good resource, but gives a lot of answers directly and is not advised to be used as a primary resource)</p>
+<p>You should perceive binary search as more of an idea than an exact sequence of steps where you memorize the code and reproduce it (This causes fatal errors in code and irritating one-offs). There are multiple ways to code it, and the resources show their own favorite version, feel free to use any, as long as you&rsquo;re comfortable with it.</p>
+<p>UPD: You guys can also refer to Codeforces EDU section where pashka has explained binary search in great detail.(Link: <a href="https://codeforces.com/edu/course/2/lesson/6" target="_blank">ITMO Academy: pilot course</a>
+)</p>
+<p>Cheers and Happy Programming!!</p>
+<h1 id="basics-of-number-theory">Basics of Number Theory</h1>
+<p>Hey Guys!</p>
+<p>The next topic is Basics of Number Theory. If you have been participating in contests regularly, probably you are quite familiar with Number Theory that you would be needing for competitive programming. We have listed some topics that we think you should know and also compiled some resources that you might find useful.</p>
+<ol>
+<li>
+<p><strong>Euclidean Algorithm to find GCD of two numbers</strong> : The algorithm basically states gcd(a,b)=gcd(b,a%b)gcd(a,b)=gcd(b,a%b) . This can be computed recursively and in O(loga+logb)O(log?a+log?b) time. You should try to implement it yourself.</p>
+</li>
+<li>
+<p><strong>Bezout&rsquo;s identity</strong> : Bezout&rsquo;s identity states that if d=gcd(a,b)d=gcd(a,b) , then there exist integers xx and yy , such that ax+by=dax+by=d (Try and prove that dd is the minimum positive integer that can be expressed as a linear combination of aa and bb .</p>
+</li>
+<li>
+<p><strong>Extended Euclidean Algorithm</strong> : Now that you are aware of the fact that gcd(a,b)gcd(a,b)can be expressed as a linear combination of aa and bb , the coefficients xx and yy can be found using this algorithm. You can check out the algorithm and a detailed explanation at <a href="https://brilliant.org/wiki/extended-euclidean-algorithm/" target="_blank">https://brilliant.org/wiki/extended-euclidean-algorithm/</a>
+ and you find the implementation at <a href="https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/" target="_blank">https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/</a>
+.</p>
+</li>
+<li>
+<p><strong>Sieve of Erastothenes</strong> : This is an extremely useful algorithm and you will find the need to use it time and again. The idea behind the sieve is that you can iterate through multiples of each prime i,1?i?ni,1?i?n which are less than nn  , in O(nlognlogn)O(nlog?nlog?n) (The complexity of this has to do with the sum of reciprocals of first nn natural numbers (or nn th Harmonic number)). The sieve not only allows you to find the prime factors in a range, it also allows you to find the smallest (or largest) prime factor of all numbers in a range, and in turn you can find the factorisation of a number mm in O(logm)O(log?m) . You can find a clean implementation and detailed explanation at <a href="https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html" target="_blank">https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html</a>
+</p>
+</li>
+<li>
+<p><strong>Modular Arithmetic</strong> : I hope you have encountered problems which require to find results modulo some constant M. Modular Arithmetic is nothing but performing basic arithmetical operations modulo some constant, and there are some basic properties you need to keep note of. More often than not you will have to work with a prime as the  Modulo base (like 1e9+71e9+7  ), which makes life much easier :). The most important theorem in this context would be Euler&rsquo;s theorem, which states that a?(m)?1?1 mod ma?(m)?1?1 mod m , where gcd(a,m)=1gcd(a,m)=1 . Now, if mm is a prime then the equation becomes am?1?1 mod mam?1?1 mod m , which is Fermat&rsquo;s Little theorem, and this is useful in finding inverse of aa modulo mm which would be am?2 mod mam?2 mod m . You can read more about modular inverse at <a href="https://cp-algorithms.com/algebra/module-inverse.html" target="_blank">https://cp-algorithms.com/algebra/module-inverse.html</a>
+. Definitely check out this <a href="https://codeforces.com/blog/entry/72527" target="_blank">blog</a>
+ to know more about modulo arithmetic and where it is used.</p>
+</li>
+<li>
+<p><strong>Linear Sieve and Multiplicative Functions</strong>: Linear sieve is used to calculate some really useful number-theoretic functions like phi function, totient function. A really great tutorial — <a href="https://codeforces.com/blog/entry/54090" target="_blank">https://codeforces.com/blog/entry/54090</a>
+</p>
+</li>
+<li>
+<p><strong>Chinese Remainder Theorem</strong>: A fairly popular algorithm which you  might have heard of. A detailed explanation can be found here — <a href="https://codeforces.com/blog/entry/61290" target="_blank">https://codeforces.com/blog/entry/61290</a>
+</p>
+</li>
+</ol>
+<p>In some of the links above, we have added a link of the website
+<a href="https://cp-algorithms.com" target="_blank">cp-algorithms</a>
+. This is a great website in
+general to check out many theorems and algos that are useful in
+competitive programming. Some practice questions are also added at the
+end of the tutorials there, do try to solve those so that you get a good
+grasp of the algorithm and on how to implement it.</p>
+<p>It&rsquo;s very important in CP that you be familiar with the first 55</p>
+<p>algorithms, so make very sure you understand the underlying concept that
+goes in them and practice enough problems.</p>
+<p>Finally, do checkout the following links as aggregate resources:</p>
+<p><a href="https://www.codechef.com/wiki/tutorial-number-theory" target="_blank">https://www.codechef.com/wiki/tutorial-number-theory</a>
+</p>
+<p><a href="https://artofproblemsolving.com/community/c90633h1291397" target="_blank">https://artofproblemsolving.com/community/c90633h1291397</a>
+</p>
+<p><a href="https://www.hackerearth.com/practice/notes/number-theory-1/" target="_blank">https://www.hackerearth.com/practice/notes/number-theory-1/</a>
+</p>
+<h1 id="graphs">Graphs</h1>
+<p>Hey Guys!</p>
+<p>The next topic which will be covered is Graphs. The initial topics which we have planned to cover are DFS/BFS. We have compiled some resources for it which you may find helpful. We will be hosting a contest soon on BFS/DFS.</p>
+<p>Basic Graph Introduction and BFS/DFS: <a href="https://slides.com/nikhilag/introduction-to-graphs-2d26ce" target="_blank">https://slides.com/nikhilag/introduction-to-graphs-2d26ce#/</a>
+</p>
+<p>Codeforces: <a href="https://codeforces.com/blog/entry/16221" target="_blank">https://codeforces.com/blog/entry/16221</a>
+ (It contains some advanced topics too. You may read them also if you want.)</p>
+<p>CP-Algorithms (DFS): <a href="https://cp-algorithms.com/graph/depth-first-search.html" target="_blank">https://cp-algorithms.com/graph/depth-first-search.html</a>
+</p>
+<p>CP-Algorithms (BFS): <a href="https://cp-algorithms.com/graph/breadth-first-search.html" target="_blank">https://cp-algorithms.com/graph/breadth-first-search.html</a>
+</p>
+<p>You can find some problems for practice on CP-Algorithms.</p>
+<p>You should always try to write code for BFS/DFS and not memorize it or insert into your template.</p>
+<p>Feel free to have a discussion.</p>
+<p>Bonus : Tutorial on Bitwise Operations — <a href="https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/" target="_blank">https://www.topcoder.com/community/competitive-programming/tutorials/a-bit-of-fun-fun-with-bits/</a>
+ (May come handy in future)</p>
+<p>Cheers and Happy Programming!!</p>
+</div><hr /><div class="post-navs d-flex mb-3 justify-content-between">
+  <div class="post-nav w-50"><div class="prev-post btn btn-sm">
+      <a href="/en/posts/feature-of-scala/">Feature of Scala</a>
+    </div></div>
+  <div class="post-nav flex-row-reverse"></div>
+</div><section class="related-posts">
+    <h3>Related Posts</h3>
+    <ul class="related-posts"><li><a href="/en/posts/feature-of-scala/">Feature of Scala</a></li><li><a href="/en/posts/interfaces/">Interfaces</a></li><li><a href="/en/posts/operating-systems/">Operating Systems</a></li><li><a href="/en/posts/markdown-syntax/">Markdown Syntax Guide</a></li><li><a href="/en/posts/blog102/">Blog102</a></li></ul>
+  </section></article><div class="post-comments surface row"><div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sandeepb20" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div></div>
+</div><aside class="col-lg-4 sidebar d-flex">
+  <div class="container"><section class="profile surface row">
+  <div class="col-xl-6 d-flex align-items-center justify-content-center">
+    <img class="profile-avatar img-fluid" src="/images/profile.jpg" alt="Sandeep Kumar" loading="lazy">
+  </div>
+  <div class="col-xl-6">
+    <h5 class="profile-name my-2">Sandeep Kumar</h5><div class="profile-bio mb-2">Programmer, Sleepy, perpetual student, ML/RL Enthusiast.</div><div class="profile-company mb-2"><i class="fas fa-fw fa-building"></i>IITK</div><div class="profile-location mb-2"><i class="fas fa-fw fa-map-marker-alt"></i>Rajsthan, India</div><div class="profile-about mb-2"><i class="fas fa-fw fa-info-circle"></i><a href="/en/about/">About Me</a></div></div>
+</section><section class="featured-posts row surface">
+    <h4>Featured Posts</h4>
+    <ul><li><a href="/en/posts/cp/">Competitve Programming</a></li><li><a href="/en/posts/feature-of-scala/">Feature of Scala</a></li><li><a href="/en/posts/operating-systems/">Operating Systems</a></li><li><a href="/en/posts/markdown-syntax/">Markdown Syntax Guide</a></li><li><a href="/en/posts/blog102/">Blog102</a></li></ul>
+  </section><section class="recent-posts row surface">
+  <h4>Recent Posts</h4>
+  <ul><li><a href="/en/posts/cp/">Competitve Programming</a></li><li><a href="/en/posts/feature-of-scala/">Feature of Scala</a></li><li><a href="/en/posts/interfaces/">Interfaces</a></li><li><a href="/en/posts/operating-systems/">Operating Systems</a></li><li><a href="/en/posts/markdown-syntax/">Markdown Syntax Guide</a></li></ul>
+</section><section class="taxonomy-series row surface">
+      <h4>
+        <a href="/en/series">Series</a>
+      </h4>
+      <div><a href="/en/series/projects/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Projects">
+          Projects <span class="badge rounded-pill">4</span>
+        </a><a href="/en/series/about-me/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="About me">
+          About me <span class="badge rounded-pill">1</span>
+        </a><a href="/en/series/cp/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Cp">
+          Cp <span class="badge rounded-pill">1</span>
+        </a><a href="/en/series/linux/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="linux">
+          linux <span class="badge rounded-pill">1</span>
+        </a></div>
+    </section><section class="taxonomy-tags row surface">
+      <h4>
+        <a href="/en/tags">Tags</a>
+      </h4>
+      <div><a href="/en/tags/aca/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="aca">
+          aca <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/blog102/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="blog102">
+          blog102 <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/c&#43;&#43;/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="c&#43;&#43;">
+          c&#43;&#43; <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/cp/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Cp">
+          Cp <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/css/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="CSS">
+          CSS <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/debian/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="debian">
+          debian <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/emoji/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Emoji">
+          Emoji <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/go/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="GO">
+          GO <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/html/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="HTML">
+          HTML <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/hugo/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Hugo">
+          Hugo <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/interfaces/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="interfaces">
+          interfaces <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/jekyll/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Jekyll">
+          Jekyll <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/markdown/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Markdown">
+          Markdown <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/ml/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="ML">
+          ML <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/os/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="os">
+          os <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/paradigms/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="paradigms">
+          paradigms <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/programming101/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="programming101">
+          programming101 <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/rl/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="RL">
+          RL <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/scala/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Scala">
+          Scala <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/twitter/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="Twitter">
+          Twitter <span class="badge rounded-pill">1</span>
+        </a><a href="/en/tags/ubuntu/" class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="ubuntu">
+          ubuntu <span class="badge rounded-pill">1</span>
+        </a></div>
+    </section></div>
+</aside>
+</div>
+    </main><footer class="footer mt-auto py-3 text-center container"><nav class="social-links nav my-2 justify-content-center"><li class="nav-item">
+    <a class="nav-link social-link" href="mailto:sandeepb20@iitk.ac.in" title="Email">
+      <i class="fas fa-fw fa-2x fa-envelope"></i>
+    </a>
+  </li><li class="nav-item">
+      <a class="nav-link social-link" target="_blank" href="https://facebook.com/sandeep.bijarnia.kumar" title="Facebook">
+        <i class="fa-fw fa-2x fab fa-facebook-f"></i>
+      </a>
+    </li><li class="nav-item">
+      <a class="nav-link social-link" target="_blank" href="https://github.com/sandeepb20" title="GitHub">
+        <i class="fa-fw fa-2x fab fa-github"></i>
+      </a>
+    </li><li class="nav-item">
+      <a class="nav-link social-link" target="_blank" href="https://www.instagram.com/sandeep_kumar_bijarnia" title="Instagram">
+        <i class="fa-fw fa-2x fab fa-instagram"></i>
+      </a>
+    </li><li class="nav-item">
+      <a class="nav-link social-link" target="_blank" href="https://linkedin.com/in/sandeep-bijarnia-14812b201" title="LinkedIn">
+        <i class="fa-fw fa-2x fab fa-linkedin-in"></i>
+      </a>
+    </li><li class="nav-item">
+      <a class="nav-link social-link" target="_blank" href="https://twitter.com/Sandeep_734" title="Twitter">
+        <i class="fa-fw fa-2x fab fa-twitter"></i>
+      </a>
+    </li></nav>
+<div class="copyright mb-2">
+  Copyleft © 2021-2021 Sandeep Kumar.
+</div>
+</footer>
+<a id="btnScrollToTop" class="btn-scroll-to-top">
+  <i class="fas fa-fw fa-chevron-circle-up fa-2x"></i>
+</a>
+<script async src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60bcc43f59f2d04f"></script></body>
+</html>

@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
-    <lastBuildDate>Thu, 29 Jul 2021 10:09:23 +0530</lastBuildDate><atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 01:05:56 +0530</lastBuildDate><atom:link href="/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competitve Programming</title>
+      <link>/en/posts/cp/</link>
+      <pubDate>Tue, 07 Sep 2021 01:05:56 +0530</pubDate>
+      
+      <guid>/en/posts/cp/</guid>
+      <description>Competitive Coding Resources Here are some CP resources that I found useful.
+Why did I write this blog?  Good question! There are plenty of resources out there on how to start competitive programming but what I found missing there were proper links to resources. I also had selfish reasons:- I wanted a short description, which nevertheless contained the major ideas underlying the algorithms, a discussion of their relative strengths and weaknesses, with hints on what is known (and not known, but would be good to know) about these algorithms.</description>
+    </item>
+    
     <item>
       <title>Feature of Scala</title>
       <link>/en/posts/feature-of-scala/</link>

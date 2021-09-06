@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cp on Sandeep&#39;s World</title>
+    <link>/en/series/cp/</link>
+    <description>Recent content in Cp on Sandeep&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
+    <lastBuildDate>Tue, 07 Sep 2021 01:05:56 +0530</lastBuildDate><atom:link href="/en/series/cp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competitve Programming</title>
+      <link>/en/posts/cp/</link>
+      <pubDate>Tue, 07 Sep 2021 01:05:56 +0530</pubDate>
+      
+      <guid>/en/posts/cp/</guid>
+      <description>Competitive Coding Resources Here are some CP resources that I found useful.
+Why did I write this blog?  Good question! There are plenty of resources out there on how to start competitive programming but what I found missing there were proper links to resources. I also had selfish reasons:- I wanted a short description, which nevertheless contained the major ideas underlying the algorithms, a discussion of their relative strengths and weaknesses, with hints on what is known (and not known, but would be good to know) about these algorithms.</description>
+    </item>
+    
+  </channel>
+</rss>
