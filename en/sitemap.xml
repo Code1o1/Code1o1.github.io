@@ -3,28 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/tags/c&#43;&#43;/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <loc>/en/tags/college/</loc>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/en/posts/cp/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <loc>/en/tags/iitk/</loc>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/en/tags/cp/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/en/series/cp/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <loc>/en/series/iitk/</loc>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
   </url>
   
   <url>
     <loc>/en/posts/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -44,7 +39,7 @@
   
   <url>
     <loc>/en/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -64,7 +59,7 @@
   
   <url>
     <loc>/en/series/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -84,7 +79,7 @@
   
   <url>
     <loc>/en/tags/</loc>
-    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
@@ -100,6 +95,31 @@
                 hreflang="en"
                 href="/en/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>/en/posts/things-to-explore-in-college/</loc>
+    <lastmod>2022-02-14T00:02:19+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/c&#43;&#43;/</loc>
+    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/posts/cp/</loc>
+    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/tags/cp/</loc>
+    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/en/series/cp/</loc>
+    <lastmod>2021-09-07T01:05:56+05:30</lastmod>
   </url>
   
   <url>
