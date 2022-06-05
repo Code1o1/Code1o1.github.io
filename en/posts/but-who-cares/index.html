@@ -13,8 +13,8 @@
 <meta itemprop="description" content="But Who Cares?">
 <meta itemprop="datePublished" content="2022-06-05T19:01:05+05:30" />
 <meta itemprop="dateModified" content="2022-06-05T19:01:05+05:30" />
-<meta itemprop="wordCount" content="659">
-<meta itemprop="image" content="/images/WhoCares.jpg">
+<meta itemprop="wordCount" content="678">
+<meta itemprop="image" content="/images/whoCares.jpg">
 
 
 
@@ -23,12 +23,12 @@
 <meta property="og:description" content="But Who Cares?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/en/posts/but-who-cares/" />
-<meta property="og:image" content="/images/WhoCares.jpg" />
+<meta property="og:image" content="/images/whoCares.jpg" />
 <meta property="article:published_time" content="2022-06-05T19:01:05+05:30" />
 <meta property="article:modified_time" content="2022-06-05T19:01:05+05:30" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="/images/WhoCares.jpg"/>
+<meta name="twitter:image" content="/images/whoCares.jpg"/>
 
 <meta name="twitter:title" content="But Who Cares?"/>
 <meta name="twitter:description" content="But Who Cares?"/>
@@ -200,6 +200,7 @@
         <li><a href="#python">Python</a></li>
         <li><a href="#rewriting-the-same-code-in-c">Rewriting the same code in C++</a></li>
         <li><a href="#interpreted-vs-compiled-programming-languages">Interpreted vs Compiled Programming Languages</a></li>
+        <li><a href="#lets-see-a-magic-">Let&rsquo;s see a magic-</a></li>
       </ul>
     </li>
     <li><a href="#conclusion">Conclusion</a>
@@ -218,7 +219,7 @@
 <p>Someone - C++ is faster than Python&hellip;</p>
 <p>Show them this article&hellip;</p>
 <p><strong>Note</strong> - When you write same code, C++ is way more performant than most of the modern programming Languages. And you will find Python somewhere at the end of the list.</p>
-<p>But when you implement these in some real projects, <em><strong>no one cares</strong></em> about your code and language. What everyone cares is result. So manytimes faster implementation  better than faster execution.</p>
+<p>But when you implement these in some real projects, nobody cares about your code and language. What everyone cares about is the result. Many times quicker implementation is better than speed.</p>
 <p>Let&rsquo;s say you are asked to create a website. And you have only two options: Python and C++. In the end when you compare, the C++ project will be many times faster than Python. So, your server will respond and render data to clients in 0.001 sec instead of 0.01 sec. <em><strong>But who cares?</strong></em> In C++ you will end up writing code for months that can be done within a week in Python.</p>
 <h2 id="now-let-us-see-matrix-multiplication">Now let us see matrix Multiplication</h2>
 <p>We start this <del>holy war</del> by implementing a matrix multiplication on two 1000x1000 sized matrix.</p>
@@ -226,7 +227,8 @@
 <p>res_matrix = matrix1(1000x1000) multiply with matrix2(1000x1000);</p>
 </blockquote>
 <h3 id="python">Python</h3>
-<p>Python implementation code can be found here.</p>
+<p>Python implementation code can be found <a href="https://gist.github.com/sandeepb20/3457478a835124bae3550dc13bb1be90" target="_blank">here</a>
+</p>
 <p>The main code comprises of simple loops over all the elements -</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n):
     <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(n):
@@ -235,7 +237,8 @@
 </code></pre></div><p>How long did it take?
 <strong>141.073768 sec</strong> &hellip;&hellip;&hellip;.(for n = 1000 )</p>
 <h3 id="rewriting-the-same-code-in-c">Rewriting the same code in C++</h3>
-<p>You can find the implementation here.</p>
+<p>You can find the implementation <a href="https://gist.github.com/sandeepb20/ab929986cc16bcd5d563dab61abf7402" target="_blank">here</a>
+.</p>
 <p>The main code comprises of simple loops over all the elements -</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-C++" data-lang="C++"><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>){
     <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> n; j<span style="color:#f92672">++</span>){
@@ -254,8 +257,8 @@ Which is around <strong>15x times</strong> faster than Python.</p>
 In a compiled language, the code is directly converted to machine code that the processor can execute. As a result, they tend to be faster and more efficient. Whereas in an interpreted language the source code is translated using a different program (also known as interpreter) which reads and executes the code.
 Interpreters run through a program line by line and execute each command, but in Compiled languages you need to manually compile whole code each time you make a change.</p>
 <p>Compiled languages also give the developer more control over hardware aspects, like memory management and CPU usage.</p>
-<p>Let&rsquo;s see a magic-
-If we change the loop order in above C++ implementation, it keeps the correctness while the speed increases</p>
+<h3 id="lets-see-a-magic-">Let&rsquo;s see a magic-</h3>
+<p>If we change the loop order in above C++ implementation, it keeps the correctness while the speed increases</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-C++" data-lang="C++"><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> n; i<span style="color:#f92672">++</span>){
     <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> k <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; k <span style="color:#f92672">&lt;</span> n; k<span style="color:#f92672">++</span>){
         <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> n; j<span style="color:#f92672">++</span>){
@@ -263,9 +266,11 @@ If we change the loop order in above C++ implementation, it keeps the correctnes
         }
     }
 }
-</code></pre></div><p>for n = 1000 this code took <strong>7.491608</strong> sec
-for large value of n this can be <strong>5x times</strong> faster than above C++ implementation. Here Speed increase because cache hit increases. For first implementation cache miss rate was really high!</p>
-<p>We can further optimize the programs to run in less than <strong>1 sec</strong> with the help of compiler, changing the algorithm and many other things.</p>
+</code></pre></div><p>for n = 1000 this code took <strong>7.491608</strong> sec<br>
+for large value of n this can be <strong>5x times</strong> faster than above C++ implementation. Here Speed increase because cache hit increases. For first implementation cache miss rate was really high!<br>
+<br>
+But if we change the loop order in Python Code. There won&rsquo;t be any time difference.</p>
+<p>We can further optimize the C++ programs to run in less than <strong>1 sec</strong> with the help of compiler, changing the algorithm and many other things.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Wait&hellip; nobody is writing logic in python because &ldquo;Libraries included&rdquo;<br>
 Sure, these libraries are written in C++, <em><strong>But who cares?</strong></em></p>
