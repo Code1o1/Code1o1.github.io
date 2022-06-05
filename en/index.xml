@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
-    <lastBuildDate>Mon, 14 Feb 2022 00:02:19 +0530</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 19:01:05 +0530</lastBuildDate><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>But Who Cares?</title>
+      <link>/en/posts/but-who-cares/</link>
+      <pubDate>Sun, 05 Jun 2022 19:01:05 +0530</pubDate>
+      
+      <guid>/en/posts/but-who-cares/</guid>
+      <description>This blog is not about holy war between Python and C&amp;#43;&amp;#43;.  Someone - C++ is faster than Python&amp;hellip;
+Show them this article&amp;hellip;
+Note - When you write same code, C++ is way more performant than most of the modern programming Languages. And you will find Python somewhere at the end of the list.
+But when you implement these in some real projects, no one cares about your code and language.</description>
+    </item>
+    
     <item>
       <title>Things to Explore in College</title>
       <link>/en/posts/things-to-explore-in-college/</link>

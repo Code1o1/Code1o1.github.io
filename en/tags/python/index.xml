@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Sandeep&#39;s World</title>
+    <link>/en/tags/python/</link>
+    <description>Recent content in Python on Sandeep&#39;s World</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyleft © 2021-{year} Sandeep Kumar.</copyright>
+    <lastBuildDate>Sun, 05 Jun 2022 19:01:05 +0530</lastBuildDate><atom:link href="/en/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>But Who Cares?</title>
+      <link>/en/posts/but-who-cares/</link>
+      <pubDate>Sun, 05 Jun 2022 19:01:05 +0530</pubDate>
+      
+      <guid>/en/posts/but-who-cares/</guid>
+      <description>This blog is not about holy war between Python and C&amp;#43;&amp;#43;.  Someone - C++ is faster than Python&amp;hellip;
+Show them this article&amp;hellip;
+Note - When you write same code, C++ is way more performant than most of the modern programming Languages. And you will find Python somewhere at the end of the list.
+But when you implement these in some real projects, no one cares about your code and language.</description>
+    </item>
+    
+  </channel>
+</rss>
